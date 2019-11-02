@@ -21,10 +21,10 @@ npm install @step/wepy-com-loading --save
     <ui-loading />
 </template>
 <script>
-    import wepy from 'wepy';
+    import Wepy from 'wepy';
     import UILoading from '@step/wepy-com-loading';
 
-    export default class DemoPage extends wepy.page {
+    export default class DemoPage extends Wepy.page {
         components = {
             'ui-loading': UILoading
         };
