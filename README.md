@@ -13,7 +13,7 @@
 安装：
 
 ``` shell
-npm install @step/wepy-com-loading --save
+npm install @skit/wepy-com-loading --save
 ```
 
 导入：
@@ -24,7 +24,7 @@ npm install @step/wepy-com-loading --save
 </template>
 <script>
     import Wepy from 'wepy';
-    import UILoading from '@step/wepy-com-loading';
+    import UILoading from '@skit/wepy-com-loading';
 
     export default class DemoPage extends Wepy.page {
         components = {
